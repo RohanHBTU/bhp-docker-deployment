@@ -88,7 +88,7 @@ def predict_home_price():
     output=round(model.predict([x])[0],2)
     return render_template('index.html', prediction_text=output)
 
+print("Starting Python Flask Server For Home Price Prediction...")
+load_saved_artifacts()
 if __name__ == "__main__":
-    print("Starting Python Flask Server For Home Price Prediction...")
-    load_saved_artifacts()
     app.run(debug=True)
