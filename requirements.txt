@@ -2,9 +2,9 @@ Flask==2.2.2
 gunicorn==19.9.0
 itsdangerous>=2.0
 MarkupSafe>=2.0
-Werkzeug>=2.2.2
+Werkzeug==2.2.2
 numpy>=1.9.2
 scipy>=0.15.1
-scikit-learn>=0.18
+scikit-learn==1.0.2
 matplotlib>=1.4.3
 pandas>=0.19
